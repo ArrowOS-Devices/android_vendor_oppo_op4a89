@@ -1,0 +1,64 @@
+{
+    "config":{
+        "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "IDP"],
+        "soc_id": ["291", "246", "300", "301", "305", "321", "336", "339", "341", "355", "365", "366", "18115", "18501", "18503", "18119", "18117","19071","19081","19371"]
+    },
+
+    "default_sensors": {
+        "owner": "suid",
+        ".accel": {
+            "owner": "suid",
+            ".attr_0": {
+                "owner": "suid",
+                "id": { "type": "int", "ver": "0", "data": "19" },
+                "val": { "type": "int", "ver": "0", "data": "0" }
+            }
+        },
+
+        ".gyro": {
+            "owner": "suid",
+            ".attr_0": {
+                "owner": "suid",
+                "id": { "type": "int", "ver": "0", "data": "19" },
+                "val": { "type": "int", "ver": "0", "data": "0" }
+            }
+        },
+
+        ".mag": {
+            "owner": "suid",
+            ".attr_0": {
+                "owner": "suid",
+                "id": { "type": "int", "ver": "0", "data": "19" },
+                "val": { "type": "int", "ver": "0", "data": "0" }
+            }
+        },
+
+        ".motion_detect": {
+            "owner": "suid",
+            ".attr_0": {
+                "owner": "suid",
+                "id": { "type": "int", "ver": "0", "data": "19" },
+                "val": { "type": "int", "ver": "0", "data": "0" }
+            }
+        },
+
+        ".amd": {
+            "owner": "suid",
+            ".attr_0": {
+                "owner": "suid",
+                "id": { "type": "int", "ver": "0", "data": "19" },
+                "val": { "type": "int", "ver": "0", "data": "0" }
+            }
+        },
+
+        ".tilt": {
+            "owner": "suid",
+            ".attr_0": {
+                "owner": "suid",
+                "id": { "type": "int", "ver": "0", "data": "19" },
+                "val": { "type": "int", "ver": "0", "data": "0" }
+            }
+        }
+    }
+}
+

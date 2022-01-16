@@ -1,0 +1,12 @@
+#
+# ADDITIONAL VENDOR EUCLID PROPERTIES
+#
+ro.oppo.text.porp=1
+ro.product.brand=OPPO
+persist.sys.fall.enable=false
+persist.rcs.supported=0
+persist.vendor.radio.relay_oprt_change=1
+ro.com.android.dataroaming=false
+persist.vendor.radio.poweron_opt=1
+persist.vendor.radio.rat_on=other
+persist.vendor.radio.custom_ecc=0

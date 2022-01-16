@@ -1,0 +1,80 @@
+[
+
+{
+  "VendorTag": "com.oppo.sat.superphoto.zoom.ratio.range",
+  "Type": "Float",
+  "Count": "4",
+  "Value": "1.5,1.9,1.9,20.1"
+},
+
+{
+  "VendorTag": "com.oppo.sat.fusion.zoom.ratio.range",
+  "Type": "Float",
+  "Count": "2",
+  "Value": "0.7,0.9"
+},
+
+{
+  "VendorTag": "com.oppo.sat.hdr.fusion.zoom.ratio.range",
+  "Type": "Float",
+  "Count": "2",
+  "Value": "0.59,0.69"
+},
+
+{
+  "VendorTag": "com.oppo.sat.hdr.zoom.ratio.range",
+  "Type": "Float",
+  "Count": "2",
+  "Value": "0.99,1.09"
+},
+
+{
+  "VendorTag": "com.oppo.sat.normal.zoom.ratio.range",
+  "Type": "Float",
+  "Count": "4",
+  "Value": "1.1,1.4,1.9,1.9"
+},
+
+{
+  "VendorTag": "com.oppo.super.night.range.max.zoom.ratio",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "-1"
+},
+
+{
+  "VendorTag": "com.oppo.sat.ultrawide.zoom.range",
+  "Type": "Float",
+  "Count": "2",
+  "Value": "0.6,1.0"
+},
+
+{
+  "VendorTag": "com.oppo.sat.main.zoom.range",
+  "Type": "Float",
+  "Count": "2",
+  "Value": "1.0,2.0"
+},
+
+{
+  "VendorTag": "com.oppo.sat.tele.zoom.range",
+  "Type": "Float",
+  "Count": "2",
+  "Value": "2.0,20.0"
+},
+
+{
+  "VendorTag": "com.oppo.sat.ainight.max.zoom.ratio",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "1.09"
+},
+
+{
+  "VendorTag": "com.oppo.sat.supernight.frame.zoom.ratio",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "1.41"
+}
+
+]

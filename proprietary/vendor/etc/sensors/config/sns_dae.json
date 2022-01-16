@@ -1,0 +1,12 @@
+{
+  "config":{
+    "hw_platform": ["MTP","QRD","Dragon","Surf"],
+    "soc_id": ["339", "18115", "18501", "18503", "18119", "18117","19071","19081","19371"]
+  },
+  "dae":{
+    "owner": "sns_dae",
+    "use_sdc":{ "type": "int", "ver": "6",
+      "data": "1"
+    }
+  }
+}

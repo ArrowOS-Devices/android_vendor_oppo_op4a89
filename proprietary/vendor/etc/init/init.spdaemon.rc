@@ -1,0 +1,21 @@
+on post-fs
+#ifdef VENDOR_EDIT
+#SunFaliang@BSP.Power.Basic, 2019/11/07, remove for homeidle current.
+#    start vendor.spdaemon
+#endif
+    start vendor.sec_nvm
+
+#ifdef VENDOR_EDIT
+#SunFaliang@BSP.Power.Basic, 2019/11/07, remove for homeidle current.
+#service vendor.spdaemon /vendor/bin/spdaemon
+#    class core
+#    user system
+#    group system
+#    shutdown critical
+#endif
+
+service vendor.sec_nvm /vendor/bin/sec_nvm
+    class core
+    user system
+    group system
+

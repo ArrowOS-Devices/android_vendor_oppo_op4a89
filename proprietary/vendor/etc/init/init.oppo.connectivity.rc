@@ -1,0 +1,30 @@
+#ifdef VENDOR_EDIT
+#Tao.Hui@PSW.CN.WiFi.Basic.Custom.1884719 20190308
+#add for bdf fw rus
+service bdfAutoUpdate /vendor/bin/init.oppo.wifiAutoRecovery.sh "bdfAutoUpdate"
+    class main
+    user root
+    group root system misc wifi
+    seclabel u:r:rutilsdaemon:s0
+    disabled
+    oneshot
+
+service sauFileTransfer /vendor/bin/init.oppo.wifiAutoRecovery.sh "sauFileTransfer"
+    class main
+    user root
+    group root system misc wifi
+    seclabel u:r:rutilsdaemon:s0
+    disabled
+    oneshot
+
+service wifiFwAssert /vendor/bin/init.oppo.wifiAutoRecovery.sh "wifiFwAssert"
+    class main
+    user root
+    group root system misc wifi
+    seclabel u:r:rutilsdaemon:s0
+    disabled
+    oneshot
+
+on property:vendor.oppo.wifi.minidump=*
+    setprop oppo.wifi.minidump ${vendor.oppo.wifi.minidump}
+#endif  /* VENDOR_EDIT */
